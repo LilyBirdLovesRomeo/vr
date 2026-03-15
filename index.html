@@ -12,6 +12,9 @@
 
 <body>
 <a-scene>
+    <a-assets>
+        <img id="Silks " src="images/silks.JPG" preload="auto">
+    </a-assets>
     <a-entity environment="preset: moon; dressingAmount: 800; skyColor: #bde0fe;"></a-entity>
     <!--Start of Museum-->
     <a-cylinder id="floor" position="0 0 0" radius="7.5" height="0.1" color='#ff758f'></a-cylinder>
@@ -23,10 +26,8 @@
     <a-cylinder id="triangle_back" segments-radial="3" position="0 3.874 -4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="pink"></a-cylinder>
     <a-box id="roof_right" position="2.580 4.328 0" rotation="28.433 90 0" scale="10.931 0.20 6.110" color="pink"></a-box>
     <a-box id="roof_left" position="-2.599 4.321 -0.017" rotation="28.433 -90 0" scale="10.931 0.20 6.130" color="pink"></a-box>
-<a-assets>
- <img id=" " src="images/nameOfYourImage" preload="auto">
-</a-assets>
-<a-plane id="art1" src="Silks AYAC 1.JPG" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
+
+    <a-plane id="art1" src="#Silks" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
 
 
     
