@@ -14,6 +14,10 @@
 <a-scene>
     <a-assets>
         <img id="Hoop" src="images/Hoop.JPG" preload="auto">
+        <img id="Leo1" src="images/Leo1.jpeg" preload="auto">
+        <img id="sarge1" src="images/Sarge1.jpeg" preload="auto">
+        <img id="sarge2" src="images/Sarge2.jpeg" preload="auto">
+        <img id="leo2" src="images/Leo2.jpeg" preload="auto">
     </a-assets>
     <a-entity environment="preset: moon; dressingAmount: 800; skyColor: #bde0fe;"></a-entity>
     <!--Start of Museum-->
@@ -27,10 +31,11 @@
     <a-box id="roof_right" position="2.580 4.328 0" rotation="28.433 90 0" scale="10.931 0.20 6.110" color="pink"></a-box>
     <a-box id="roof_left" position="-2.599 4.321 -0.017" rotation="28.433 -90 0" scale="10.931 0.20 6.130" color="pink"></a-box>
 
-    <a-plane id="art1" src="#Hoop" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
-
-
-    
+    <a-plane id="art1" src="#Hoop" scale="2 2 0.05" rotation="0 0 0" position="-2.835 1.690 -4.834"></a-plane>
+    <a-plane id="art2" src="#Leo1" scale="2 2 0.05" rotation="0 0 90" position="0.103 1.690 -4.834"></a-plane>
+    <a-plane id="art3" src="#sarge1" scale="2 2 0.05" rotation="0 0 0" position="2.943 1.690 -4.834"></a-plane>
+    <a-plane id="art4" src="#sarge2" scale="2 2 0.05" rotation="0 0 0" position="2.943 1.690 -4.834"></a-plane> 
+    <a-plane id="art5" src="#leo2" scale="2 2 0.05" rotation="0 90 0" position="-4.147 1.704 -2.623"></a-plane>
 </a-scene>
 </body>
 </html>
